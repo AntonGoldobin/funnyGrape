@@ -4,7 +4,7 @@ import * as dotenv from 'dotenv'
 import * as path from 'path'
 import cookieParser from 'cookie-parser'
 import logger from 'morgan'
-import { prettyAnimals } from './bots/prettyAnimals'
+import { start } from './bots/start'
 
 import {router as indexRouter } from './routes/index'
 
@@ -50,6 +50,6 @@ app.listen(port, () => {
 	console.log(`Pretty Animals is listening on port ${port}`)
 })
 
-prettyAnimals()
+start()
 
 module.exports = app

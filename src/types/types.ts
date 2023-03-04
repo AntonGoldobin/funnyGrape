@@ -8,10 +8,9 @@ export interface Config {
 	categoryId: number
 	youtubeSecret: any
 
-	snoowrapClientId: string | undefined
-	snoowrapSecret: string | undefined
-	snoowrapToken: string | undefined
-	redditPostLimit: number
+	tiktokMocked: boolean
+	tiktok_key: string
+	tiktok_keyword: string
 
 	videoOnly: boolean
 	isAdult: boolean
@@ -19,5 +18,5 @@ export interface Config {
 	scheduleRepeats: number | 'all'
 	cron: string
 
-	thumbnailLogo: string
+	thumbnailLogo?: string
 }
