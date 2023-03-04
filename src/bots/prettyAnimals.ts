@@ -37,7 +37,7 @@ export const prettyAnimals = () => {
 		snoowrapClientId: process.env.AVOCADO_SNOOWRAP_CLIENT_ID,
 		snoowrapSecret: process.env.AVOCADO_SNOOWRAP_CLIENT_SECRET,
 		snoowrapToken: process.env.AVOCADO_SNOOWRAP_REFRESH_TOKEN,
-		redditPostLimit: 20,
+		redditPostLimit: 100,
 		isAdult: false,
 		thumbnailLogo: getBase64ThumbnailLogo()
 	}
