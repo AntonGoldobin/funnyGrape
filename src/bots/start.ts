@@ -54,7 +54,7 @@ export const start = () => {
 		videoOnly: true,
 
 		//TikTok configs
-		tiktokMocked: false,
+		tiktokMocked: process.env.TIKTOK_MOCKED && !!+process.env.TIKTOK_MOCKED,
 		tiktok_key: process.env.TIKTOK_KEY,
 		tiktok_keyword: 'nba compilation',
 
