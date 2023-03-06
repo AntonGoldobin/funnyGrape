@@ -19,4 +19,5 @@ export interface Config {
 	cron: string
 
 	thumbnailLogo?: string
+	uploadCount?: number
 }

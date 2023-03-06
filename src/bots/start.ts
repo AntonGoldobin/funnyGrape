@@ -57,6 +57,7 @@ export const start = () => {
 		tiktokMocked: process.env.TIKTOK_MOCKED && !!+process.env.TIKTOK_MOCKED,
 		tiktok_key: process.env.TIKTOK_KEY,
 		tiktok_keyword: 'nba compilation',
+		uploadCount: 2,
 
 		isAdult: false,
 		thumbnailLogo: getBase64ThumbnailLogo(),
