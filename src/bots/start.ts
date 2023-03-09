@@ -14,7 +14,7 @@ export const start = () => {
 		//Youtube configs
 		youtubeLoginToken: JSON.parse(process.env.YOUTUBE_LOGIN_TOKEN),
 		youtubeSecret: JSON.parse(process.env.YOUTUBE_SECRET),
-		youtubeVideoTitle: 'NBA compilations from TikTok #shorts',
+		youtubeVideoTitle: 'NBA that I liked from TikTok #shorts',
 		youtubeVideoDescription:
 			'Subscribe and watch the newest shorts founded by the NBA Doge',
 		youtubeVideoTags: [
@@ -56,7 +56,7 @@ export const start = () => {
 		//TikTok configs
 		tiktokMocked: process.env.TIKTOK_MOCKED && !!+process.env.TIKTOK_MOCKED,
 		tiktok_key: process.env.TIKTOK_KEY,
-		tiktok_keyword: 'nba compilation',
+		tiktok_keyword: 'basketball',
 		uploadCount: 2,
 
 		isAdult: false,
